@@ -29,4 +29,3 @@ class Settings:
 		self.num_color.append((0 , 0 , 0))
 		self.num_color.append((0 , 0 , 0))
 		self.num_color.append((0 , 0 , 0))
-		print(self.num_color)
