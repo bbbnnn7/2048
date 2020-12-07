@@ -93,6 +93,10 @@ class Game:
 			box.draw_box(num)
 		self._check_box()
 		for i in range(16):
+			num_row = i % 4
+			num_col = i // 4
+			if self.main.li[num_col][num_row] == 0:
+				continue
 			self._print.prnt(i)
 		self.sb.show_score()
 		pygame.display.flip()
